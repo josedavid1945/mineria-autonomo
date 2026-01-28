@@ -273,7 +273,3 @@ npm run dev
 | Frontend | http://localhost:5173 |
 | Backend API | http://127.0.0.1:8000/api/ |
 | Admin Django | http://127.0.0.1:8000/admin/ |
-
----
-
-_Universidad Laica Eloy Alfaro de Manabi (ULEAM) - 2026_
