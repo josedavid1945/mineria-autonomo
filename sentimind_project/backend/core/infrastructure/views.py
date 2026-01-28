@@ -8,12 +8,6 @@ from core.application.ai_service import MiningEngine
 import traceback
 
 
-class IsAuthenticatedOrReadOnly(permissions.BasePermission):
-    """Permite lectura a todos, escritura solo a autenticados."""
-    def has_permission(self, request, view):
-        if request.method in permissions.SAFE_METHODS:
-            return True
-        return request.user and request.user.is_authenticated
 
 
 class PostListCreateView(generics.ListCreateAPIView):
